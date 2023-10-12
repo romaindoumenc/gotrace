@@ -9,8 +9,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/benhoyt/goawk/interp"
-	"github.com/benhoyt/goawk/parser"
+	"github.com/romaindoumenc/gotrace/interp"
+	"github.com/romaindoumenc/gotrace/parser"
 )
 
 func Example() {

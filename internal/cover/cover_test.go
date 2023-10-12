@@ -7,8 +7,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/benhoyt/goawk/internal/parseutil"
-	"github.com/benhoyt/goawk/parser"
+	"github.com/romaindoumenc/gotrace/internal/parseutil"
+	"github.com/romaindoumenc/gotrace/parser"
 )
 
 func TestAnnotatingLogicCorrectness(t *testing.T) {

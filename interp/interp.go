@@ -26,10 +26,10 @@ import (
 	"strings"
 	"unicode/utf8"
 
-	"github.com/benhoyt/goawk/internal/ast"
-	"github.com/benhoyt/goawk/internal/compiler"
-	"github.com/benhoyt/goawk/internal/resolver"
-	"github.com/benhoyt/goawk/parser"
+	"github.com/romaindoumenc/gotrace/internal/ast"
+	"github.com/romaindoumenc/gotrace/internal/compiler"
+	"github.com/romaindoumenc/gotrace/internal/resolver"
+	"github.com/romaindoumenc/gotrace/parser"
 )
 
 var (

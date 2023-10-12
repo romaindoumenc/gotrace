@@ -7,9 +7,9 @@ import (
 	"path/filepath"
 	"strconv"
 
-	"github.com/benhoyt/goawk/internal/ast"
-	"github.com/benhoyt/goawk/internal/parseutil"
-	"github.com/benhoyt/goawk/lexer"
+	"github.com/romaindoumenc/gotrace/internal/ast"
+	"github.com/romaindoumenc/gotrace/internal/parseutil"
+	"github.com/romaindoumenc/gotrace/lexer"
 )
 
 const ArrayName = "__COVER"

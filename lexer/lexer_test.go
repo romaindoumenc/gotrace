@@ -8,7 +8,7 @@ import (
 	"strings"
 	"testing"
 
-	. "github.com/benhoyt/goawk/lexer"
+	. "github.com/romaindoumenc/gotrace/lexer"
 )
 
 func TestLexer(t *testing.T) {

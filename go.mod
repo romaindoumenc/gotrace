@@ -1,3 +1,3 @@
-module github.com/benhoyt/goawk
+module github.com/romaindoumenc/gotrace
 
-go 1.16
+go 1.21

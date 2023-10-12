@@ -7,9 +7,9 @@ import (
 	"io"
 	"strings"
 
-	"github.com/benhoyt/goawk/internal/ast"
-	"github.com/benhoyt/goawk/internal/resolver"
-	"github.com/benhoyt/goawk/lexer"
+	"github.com/romaindoumenc/gotrace/internal/ast"
+	"github.com/romaindoumenc/gotrace/internal/resolver"
+	"github.com/romaindoumenc/gotrace/lexer"
 )
 
 // Disassemble writes a human-readable form of the program's virtual machine

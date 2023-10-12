@@ -37,13 +37,13 @@ import (
 	"strings"
 	"unicode/utf8"
 
-	"github.com/benhoyt/goawk/internal/compiler"
-	"github.com/benhoyt/goawk/internal/cover"
-	"github.com/benhoyt/goawk/internal/parseutil"
-	"github.com/benhoyt/goawk/internal/resolver"
-	"github.com/benhoyt/goawk/interp"
-	"github.com/benhoyt/goawk/lexer"
-	"github.com/benhoyt/goawk/parser"
+	"github.com/romaindoumenc/gotrace/internal/compiler"
+	"github.com/romaindoumenc/gotrace/internal/cover"
+	"github.com/romaindoumenc/gotrace/internal/parseutil"
+	"github.com/romaindoumenc/gotrace/internal/resolver"
+	"github.com/romaindoumenc/gotrace/interp"
+	"github.com/romaindoumenc/gotrace/lexer"
+	"github.com/romaindoumenc/gotrace/parser"
 )
 
 const (

@@ -16,8 +16,8 @@ import (
 	"strings"
 	"unicode/utf8"
 
-	"github.com/benhoyt/goawk/internal/resolver"
-	. "github.com/benhoyt/goawk/lexer"
+	"github.com/romaindoumenc/gotrace/internal/resolver"
+	. "github.com/romaindoumenc/gotrace/lexer"
 )
 
 // Print a line of output followed by a newline

@@ -9,8 +9,8 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/benhoyt/goawk/internal/ast"
-	"github.com/benhoyt/goawk/lexer"
+	"github.com/romaindoumenc/gotrace/internal/ast"
+	"github.com/romaindoumenc/gotrace/lexer"
 )
 
 // ResolvedProgram is a parsed AWK program plus variable scope and type data

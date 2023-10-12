@@ -1,7 +1,7 @@
 
 # GoAWK's code coverage feature
 
-GoAWK implements code coverage functionality, similar to the [code coverage built into Go](https://go.dev/blog/cover). This feature was implemented by Volodymyr Gubarkov ([xonixx](https://github.com/xonixx)), primarily in [PR #154](https://github.com/benhoyt/goawk/pull/154).
+GoAWK implements code coverage functionality, similar to the [code coverage built into Go](https://go.dev/blog/cover). This feature was implemented by Volodymyr Gubarkov ([xonixx](https://github.com/xonixx)), primarily in [PR #154](https://github.com/romaindoumenc/gotrace/pull/154).
 
 Here is a screenshot using GoAWK's coverage feature on a simple AWK program (`prog.awk`):
 
@@ -64,9 +64,9 @@ BEGIN {
 ## Future work
 
 - Add a way to support per-function coverage reporting, similar to `go tool cover -func=cover.out`.
-- More complete handling for coverage of `if`/`else` (see [details](https://github.com/benhoyt/goawk/pull/154#discussion_r996465307)).
+- More complete handling for coverage of `if`/`else` (see [details](https://github.com/romaindoumenc/gotrace/pull/154#discussion_r996465307)).
 
 
 ## Feedback
 
-Please [open an issue](https://github.com/benhoyt/goawk/issues) if you have bug reports or feature requests for GoAWK's code coverage support.
+Please [open an issue](https://github.com/romaindoumenc/gotrace/issues) if you have bug reports or feature requests for GoAWK's code coverage support.

@@ -1,5 +1,5 @@
 .DS_Store
-goawk
+gotrace
 orig
 fuzz/interp/corpus
 fuzz/parser/corpus
@@ -7,9 +7,6 @@ fuzz/interp/workdir
 fuzz/parser/workdir
 fuzz-fuzz.zip
 posix_spec.html
-goawk_*.zip
-goawk_*.tar.gz
-.idea
 interp/testdata
 scripts/csvbench/bin
 scripts/csvbench/count.csv

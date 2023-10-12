@@ -11,10 +11,10 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/benhoyt/goawk/internal/ast"
-	"github.com/benhoyt/goawk/internal/compiler"
-	"github.com/benhoyt/goawk/internal/resolver"
-	. "github.com/benhoyt/goawk/lexer"
+	"github.com/romaindoumenc/gotrace/internal/ast"
+	"github.com/romaindoumenc/gotrace/internal/compiler"
+	"github.com/romaindoumenc/gotrace/internal/resolver"
+	. "github.com/romaindoumenc/gotrace/lexer"
 )
 
 // ParseError (actually *ParseError) is the type of error returned by

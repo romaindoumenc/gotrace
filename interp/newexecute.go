@@ -6,8 +6,8 @@ import (
 	"context"
 	"math"
 
-	"github.com/benhoyt/goawk/internal/resolver"
-	"github.com/benhoyt/goawk/parser"
+	"github.com/romaindoumenc/gotrace/internal/resolver"
+	"github.com/romaindoumenc/gotrace/parser"
 )
 
 const checkContextOps = 1000 // for efficiency, only check context every N instructions
