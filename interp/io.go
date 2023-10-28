@@ -681,7 +681,7 @@ func (p *interp) ensureFields() {
 
 // Fetch next line (record) of input from current input file, opening
 // next input file if done with previous one
-func (p *interp) nextLine() (string, error) {
+func (p *interp) nextEvent() (string, error) {
 	for {
 		if p.scanner == nil {
 			if prevInput, ok := p.input.(io.Closer); ok && p.input != p.stdin {
